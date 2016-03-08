@@ -32,4 +32,4 @@ $dl.addClass('classification');
 
 $dt.removeClass('big-label');
 
-$ullast.show(duration, complete, options, duration, easing, complete);
+$ullast.show();
