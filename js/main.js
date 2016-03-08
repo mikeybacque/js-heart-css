@@ -5,8 +5,8 @@ var $pfirst = $('main p:first-child');
 var $h2 = $('h2');
 var $mainlist = $('main ul');
 var $img = $('img');
-var $ulfirst = $('ul:first-child');
-var $ullast = $('ul:last-child');
+var $lifirst = $('li:first-child');
+var $lilast = $('li:last-child');
 var $dl = $('dl');
 var $dt = $('dt');
 
@@ -24,12 +24,12 @@ $mainlist.addClass('slug-list');
 
 $img.addClass('slug-img');
 
-$ulfirst.addClass('slug-list-first');
+$lifirst.addClass('slug-list-first');
 
-$ullast.addClass('slug-list-last');
+$lilast.addClass('slug-list-last');
 
 $dl.addClass('classification');
 
 $dt.removeClass('big-label');
 
-$ullast.show();
+$lilast.show();
